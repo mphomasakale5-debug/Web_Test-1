@@ -114,3 +114,43 @@ calculator.querySelectorAll("label").forEach(function(label) {
     label.style.display = "block";
     label.style.marginTop = "10px";
 });
+
+document.body.style.backgroundColor = "pink";
+document.body.style.color = "white";
+document.body.style.fontFamily = "Arial";
+document.body.style.textAlign = "center";
+
+calculator.style.backgroundColor = "white";
+calculator.style.color = "black";
+calculator.style.width = "300px";
+calculator.style.margin = "30px auto";
+calculator.style.padding = "20px";
+calculator.style.borderRadius = "15px";
+
+
+const inputs = calculator.querySelectorAll("input");
+
+inputs.forEach(function(input) {
+    input.style.padding = "10px";
+    input.style.margin = "5px";
+    input.style.border = "2px solid pink";
+    input.style.borderRadius = "8px";
+});
+
+const buttons = calculator.querySelectorAll("button");
+
+buttons.forEach(function(button) {
+    button.style.backgroundColor = "pink";
+    button.style.color = "white";
+    button.style.border = "none";
+    button.style.padding = "10px 20px";
+    button.style.borderRadius = "8px";
+    button.style.cursor = "pointer";
+});
+
+// Heading styling
+const headings = calculator.querySelectorAll("h1, h2");
+
+headings.forEach(function(heading) {
+    heading.style.color = "pink";
+});
